@@ -1,6 +1,5 @@
 # Week 2 Day 1 Assignment - Grocery App
 
-import sys
 store_list = []
 
 class Store:
@@ -9,27 +8,12 @@ class Store:
         self.address = address
         self.item_list = []
 
-    #def get_name(self, name):
-     #   return self.name
-
-    #def __str__(self):
-     #   return str(self.name)
-
 
 class Item:
     def __init__(self, name, price, qty):
         self.name = name
         self.price = price
         self.qty = qty
-
-   #def __str__(self):
-    #    return f"{str(self.name)}, qty: {str(self.qty)}"
-
-    #def get_name(self, name):
-     #   return self.name
-
-    #def get_qty(self, qty):
-     #   return self.qty
 
       
 while True:
